@@ -1,0 +1,16 @@
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\bin\Debug\SyncCardTask.exe.config
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\bin\Debug\SyncCardTask.exe
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\bin\Debug\SyncCardTask.pdb
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.csproj.AssemblyReference.cache
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\App.g.cs
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask_MarkupCompile.cache
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask_MarkupCompile.lref
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.g.resources
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.Properties.Resources.resources
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.csproj.GenerateResource.cache
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.csproj.CoreCompileInputs.cache
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.exe
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\SyncCardTask.pdb
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\MVVM\Views\MainWindow.g.cs
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\MVVM\Views\MainWindow.baml
+C:\Users\Omer\source\repos\SyncCardTask\SyncCardTask\obj\Debug\GeneratedInternalTypeHelper.g.cs

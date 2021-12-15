@@ -1,0 +1,34 @@
+﻿<Window x:Class="SyncCardTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:SyncCardTask.MVVM.ViewModels"
+        xmlns:local="clr-namespace:SyncCardTask"
+        mc:Ignorable="d"
+        Title="Transfer Money"
+        Height="450" 
+        Width="500"
+        Background="DodgerBlue"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <vm:MainViewModel x:Key="ViewModel"/>
+    </Window.Resources>
+    <StackPanel DataContext="{StaticResource ViewModel}">
+        <Button Content="Insert Card" Command="{Binding InsertCardCommand}"  ToolTip="Insert Card" FontSize="15" Width="150" Margin="0 0 0 20"/>
+        <StackPanel Orientation="Horizontal" Margin="10 0 0 30">
+            <Button Content="Load Data" ToolTip="Load Data" Width="100" Height="150" IsEnabled="{Binding LoadButtonEnabled}" Command="{Binding LoadInfoCommand}"/>
+            <StackPanel>
+                <TextBox Text="{Binding CardCode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding CardCodeEnabled}" FontSize="15" ToolTip="Card Code" Width="300" Height="25" Margin="20 0 0 0" MaxLength="16"/>
+                <Label Content="{Binding UserInfo}" FontSize="20" ToolTip="Person Info" Width="300" Height="40" Margin="20 15 0 0" IsEnabled="False" Foreground="Black"/>
+                <Label Content="{Binding CurrentMoney}" FontSize="20" ToolTip="Card Amount" Width="300" Height="40" Margin="20 15 0 0" IsEnabled="False" Foreground="Black"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="90 0 0 0">
+            <TextBox Width="100" Height="30" FontSize="20" IsEnabled="{Binding MoneyTextBoxEnabled}" Text="{Binding TransferMoney, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button Content="Transfer Money" Command="{Binding TransferButtonCommand}" ToolTip="Transfer Money" Width="100" Height="40" Margin="20 0 0 0" IsEnabled="{Binding TransferButtonEnabled}"/>
+            <Label Content="{Binding ResultPrice}" ToolTip="Money to be paid" FontSize="15" Height="30" Margin="20 0 0 0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
